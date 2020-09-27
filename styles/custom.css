@@ -1,0 +1,52 @@
+body {
+  background: #e0e0e0;
+}
+
+img {
+}
+
+.logo {
+  width: 300px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Lucida Sans";
+}
+
+.post {
+  background-color: #ffffff;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.post img {
+  width: 100%;
+}
+
+section {
+  /* width: 50%;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boas-vindas {
+  margin-right: 30px;
+}
+
+a {
+  background: #e02041;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
